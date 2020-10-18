@@ -1,0 +1,455 @@
+/*--------------------------------------------------*/
+/* Big tablets to 1200px (widths smaller that the 1140px row)*/
+/*-------------------------------------------------*/
+
+@media only screen and (max-width: 1200px) {
+    .row {
+    	width: 970px;
+    	padding: 0 3%;
+    }
+    .hero p {
+	width: 85%;
+	}
+	.hero input{
+		width: 409px;
+	}
+	.hero img{
+		right: -29.5em;
+	}
+	.hero:before {
+		right: -46em;
+
+	}
+	.evento-loja1{
+		width: 80%;
+		position: absolute;
+		left: -1em;
+		top:-1em;
+		z-index: 2;
+	}
+	.servicos-flex-direito{
+		margin-left: 2em;
+	}
+	.servicos img{
+		width: 90%;
+		margin-top: 2em;
+		margin-left:2.4em;
+	}
+
+	.servicos:after{
+		content: "";
+		position: absolute;
+		width: 630px;
+		height: 83.5%;
+		background: #ee3126;
+		top: 6.7em;
+		z-index: 1;
+		clip-path: polygon(0 0, 0 100%, 100% 100%, 30% 0%);
+	}
+    
+    
+}
+
+
+/*--------------------------------------------------*/
+/* Small tablets to big tablets: from 768px to 1023px; */
+/*-------------------------------------------------*/
+@media only screen and (max-width: 1023px) {
+	.row {
+    	width: 600px;
+    	border: 0px solid black;
+    	padding: 0 3%;
+    }
+    img.slogan{
+    	width: 27%;
+    }
+    .menu{
+    	justify-content: flex-end;
+    }
+    .main-menu {
+    	display: none;
+    }
+    .hero img{
+    	display: none;
+    }
+    .hero{
+		width: 100%;
+		text-align: center;
+		position: relative;
+	}
+
+    .hero p{
+    	width: 100%;
+    }
+    .saiba {
+		left: 45%;
+		right: auto;
+		flex-direction: column-reverse;
+	}
+	.saiba span{
+		display: none;
+	}
+	.features p{
+		width: 100%;
+	}
+	.features-div {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-left: -2em;
+	}
+	.features-div-itens{
+		flex: 30%;
+		margin: 1em 0 1em 2em;
+		gap: 1em;
+	}
+	.eventos h2{
+		margin-top: -3em;
+		margin-bottom: -.8em;
+		text-align: center;
+	}
+	.eventos-flex{
+		flex-direction: column;
+		text-align: center;
+		border: 0px solid black;
+	}
+	.flex-esquerdo{
+		display: grid;
+		grid-auto-flow: row;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		width: 100%;
+		border: 0px solid red;
+	}
+	.flex-esquerdo p {
+		width: 100%;
+	}
+
+	.flex-direito{
+		width: 100%;
+		position: relative;
+		margin-bottom: 13em;
+	}
+
+	.flex-direito img{
+		border: 10px solid white;
+		box-shadow: 8px 8px 8px rgba(0,0,0,.1),
+		            -8px -8px 8px rgba(255,255,255,.5);
+	}
+	.eventos-flex{
+		margin-top: -3em;
+		width: 100%;
+		display: flex;
+		padding: 2em 0 2em 0;
+	}
+
+	.evento-loja1{
+		width: 45%;
+		left: 10em;
+		top:4.5em;
+	}
+	.evento-loja2, .evento-loja3{
+		width: 35%;
+	}
+	.evento-loja2{
+		position: absolute;
+		top: 10.5em;
+		left: 0em;
+	}
+
+	.evento-loja3{
+		position: absolute;
+		bottom: -19em;
+		left: 23em;
+	}
+	.servicos-flex{
+		width: 100%;
+	}
+	.servicos-flex-direito{
+		margin-left: 5em;
+		width: 150%;
+	}
+	.servicos-flex-direito p{
+        width: 100%;
+	}
+	.servicos img{
+		width: 218%;
+		margin-top: 2em;
+		margin-left:-8.4em;
+	}
+
+	.servicos:after{
+		content: "";
+		position: absolute;
+		width: 330px;
+		height: 82%;
+		background: #ee3126;
+		top: 6.7em;
+		z-index: 1;
+		clip-path: polygon(0 0, 0 100%, 100% 100%, 30% 0%);
+	}
+	.footer-flex .footer-logo img{
+		width: 49%;
+		display: block;
+	}
+}
+/* Small phones to small tablets: from 481 to 767px; */
+/*-------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	.row{
+		width: 400px;
+	}
+	.menu-button{
+		display: none;
+	}
+	img.slogan{
+		margin-top: .1em;
+		width: 30%;
+	}
+	.hero input{
+		width: 217px;
+	}
+	.saiba {
+		bottom: -11.4em;
+	}
+	.features-div-itens{
+		flex: 50%;
+		margin: 2em 0 2em 3.4em;
+		text-align: center;
+		gap: 1em;
+	}
+	.features-div-itens p{
+		text-align: center;
+	}
+	.eventos h2{
+		margin-top: -3em;
+		margin-bottom: -.8em;
+		text-align: center;
+	}
+	.eventos .eventos-flex input{
+		width: 200px;
+	}
+
+	.evento-loja1{
+		width: 70%;
+		left: 3.5em;
+		top:4.5em;
+	}
+	.evento-loja2, .evento-loja3{
+		width: 55%;
+	}
+	.evento-loja2{
+		position: absolute;
+		top: 10.5em;
+		left: 0em;
+	}
+
+	.evento-loja3{
+		position: absolute;
+		bottom: -19em;
+		left: 16em;
+		width: 32%;
+	}
+	.servicos-flex-esquerdo{
+		display: none;
+	}
+
+	.servicos-flex-direito {
+		margin-left: 0em;
+		width: 150%;
+		z-index: 10;
+	}
+	.servicos-flex-direito ul {
+		text-align: left;
+		margin-left: .1em;
+	}
+	.servicos-flex-direito p{
+        width: 100%;
+	}
+	.servicos:after{
+		display: none;
+	}
+	footer{
+		display: flex;
+		align-items: center;
+		position: relative;
+		padding: 200px 0 150px 0;
+	}
+	.footer-flex{
+		display: block;
+		width: 100%;
+		flex-direction: column;
+	}
+	.footer-flex .footer-logo{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.footer-links{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	margin-bottom: 8em;
+
+    }
+	.footer-flex .footer-logo p{
+		width: 100%;
+	}
+	.footer-flex .footer-logo img{
+		width: 49%;
+		display: block;
+		margin: 0 auto;
+	}
+	.copyright{
+		position: absolute;
+		bottom: 2em;
+		left: -.6em;
+		width: 100%;
+		margin-left: -.6em;
+	}
+
+}
+
+/*--------------------------------------------------*/
+/* Small phones: from 320 to 480px */
+/*-------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+    .row{
+		width: 310px;
+	}
+
+	img.slogan{
+		margin-top: .1em;
+		width: 42%;
+	}
+    input{
+		display: block;
+		margin-bottom: 2.5em;
+	}
+	.hero input {
+		width: 90%;
+	}
+     
+    .eventos form{
+    	padding: 0;
+    	width: 100%;
+    }
+	.eventos input {
+		padding-right: 7.5em;
+		margin-right: 0;
+	}
+	.hero-button{
+		max-width: 300px;
+		margin: 0;
+		padding: .9em 8.3em .9em  8.3em;     
+	}
+	.saiba{
+		left: 40%;
+		bottom: -9em;
+	}
+	.evento-loja1{
+		width: 70%;
+		left: 2.2em;
+		top:4.5em;
+	}
+	.evento-loja2 {
+		width: 50%;
+	}
+	.evento-loja3{
+		position: absolute;
+		bottom: -17.1em;
+		left: 12em;
+		width: 32%;
+	}
+
+	.servicos-flex-direito .hero-button {
+		width: 22.4%;
+		display: block;
+		margin-bottom: 1.5em;
+	}
+	.copyright{
+		left: .6em;
+		width: 90%;
+		margin-left:0em;
+	}
+}
+
+/*--------------------------------------------------*/
+/* Small phones: from 0 to 320px */
+/*-------------------------------------------------*/
+@media only screen and (max-width: 320px) {
+	.row{
+		width: 250px;
+	}
+	img.slogan{
+		margin-top: .1em;
+		width: 56%;
+	}
+	.hero input {
+		width: 86.5%;
+	}
+	.hero-button{
+		max-width: 300px;
+		margin: 0;
+		padding: .9em 6.2em .9em  6.2em;     
+	}
+	.saiba{
+		left: 40%;
+		bottom: -5.4em;
+	}
+	.features-div-itens {
+		width: 25%;
+	}
+	.eventos form{
+		width: auto;
+
+	}
+	.eventos input {
+		padding-right:2.4em;
+		margin-right: 0;
+	}
+	.hero-button{
+		max-width: 300px;
+		margin-left: 0;
+		padding: .9em 6.1em .9em  6.1em;     
+	}
+	.evento-loja1{
+		width: 70%;
+		left: 1.5em;
+		top:4.5em;
+	}
+	.evento-loja2 {
+		width: 45%;
+		top: 10.2em;
+	}
+	.evento-loja3{
+		bottom: -15.1em;
+		left: 9em;
+		width: 32%;
+	}
+	.eventos h2{
+		margin-bottom: .4em;
+	}
+	.servicos-flex-direito .hero-button{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.servicos-flex-direito .hero-button i {
+		margin-top: .1em;
+	}
+
+	.copyright{
+		left: .8em;
+		width: 85%;
+		margin-left:0em;
+	}
+	.copyright span{
+		display: block;
+		margin-bottom: .4em;
+	}
+
+}

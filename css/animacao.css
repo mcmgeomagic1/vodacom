@@ -1,0 +1,8 @@
+/*------------Animação--------------*/
+.js--mulher, .js--hero-animacao, .js--saiba{
+	opacity: 0
+}
+
+.js--mulher.animated, .js--hero-animacao.animated,.js--saiba.animated{
+	opacity: 1;
+}
