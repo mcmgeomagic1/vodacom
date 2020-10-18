@@ -269,7 +269,7 @@ form input{
 
 h1{
 	color: black;
-	font-size: clamp(29.5px, 5vw, 55px);
+	font-size: clamp(27px, 5vw, 55px);
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: .2em;
